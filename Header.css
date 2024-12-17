@@ -1,0 +1,22 @@
+/* Phần chính của header */
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; /* Đảm bảo không gian đều giữa các phần */
+}
+
+/* Logo phần header */
+.logo {
+  flex-shrink: 0; /* Đảm bảo logo không bị co lại */
+  background-color: transparent; /* Đảm bảo không có nền trắng */
+  padding: 0; /* Loại bỏ padding nếu có */
+}
+
+.logo img {
+  max-width: 100%; /* Logo sẽ có chiều rộng tối đa 100% */
+  height: auto; /* Giữ tỉ lệ chiều cao hợp lý */
+  max-height: 50px; /* Điều chỉnh chiều cao tối đa cho logo */
+  background: transparent; /* Loại bỏ nền trắng quanh logo */
+  border: none; /* Loại bỏ viền nếu có */
+}
